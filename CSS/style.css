@@ -1,0 +1,339 @@
+
+h1{font-family: 'Montserrat', sans-serif;
+  font-size:36px; 
+  font-weight: bold;
+}
+h2{font-family: 'Montserrat', sans-serif;
+font-size: 36px;
+font-weight: bold;
+}
+h3{
+  font-family:'Montserrat', sans-serif;
+  font-size: 24px;
+}
+h4{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+}
+p{
+  font-family:'Montserrat', sans-serif;
+  font-size: 20px;
+}
+.largeTitle1{
+  color:black;
+  font-size: 48px;
+}
+button {
+  background-color: #80D3F6; 
+  border: none;
+  border-radius: 25px;
+  color: Black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+button:hover{
+  background-color: #C2E5F2; 
+  transition:ease-out 0.2s;
+
+}
+.topLogo{
+  Display:flex;
+  justify-content: flex-start;
+}
+.topNav{
+  display:flex;
+  justify-content: flex-end;
+  display: grid;
+  grid-template-columns: 50px 80px 120px;
+  align-content:space-around
+  
+}
+.topNav a{
+  float: left;
+  margin: 2px;
+  color:black;
+  text-decoration: none;
+  font-size: 17px;
+  text-align: center; 
+
+}
+.topNav a:hover {
+  border-color: black;
+  padding-bottom: 8px;
+  border-bottom: solid 1px;
+  transition: all 0.3s ease-out; (edited) 
+  }
+.navbar {
+  width: 100%;
+  background-color:white;
+  overflow: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+}
+.navbar a {
+  float: left;
+  margin: 2px;
+  color:black;
+  text-decoration: none;
+  font-size: 17px;
+  text-align: center; 
+}
+.navbar a:hover {
+border-color: black;
+padding-bottom: 8px;
+border-bottom: solid 1px;
+transition: all 0.3s ease-out; (edited) 
+}
+.navbar a.active {
+  border-bottom: solid 1px black;
+  padding-bottom: 8px;
+}
+
+.heroImage{
+  width: 100%; height: 800px;
+  position: relative;
+  
+}
+.heroImageBox{
+text-align:left;
+position: absolute;
+justify-content:space-evenly;
+bottom: 5%;
+left: 0%;
+width:100%;
+
+
+
+color: #f1f1f1; 
+padding: 20px;
+
+
+}
+.backImage{
+  display: flex;
+  transform: translateY(-100%);
+
+}
+.rectangle1{
+  position: absolute;
+  left: -90px;
+  z-index: -1;
+  height: 20%;
+  width:105%
+  }
+h1{
+  color: white;
+}
+.classCategory{
+  display:grid;
+  grid-template-columns: repeat(2,1fr);
+  padding: 20px;
+}
+.rectangle1{
+  display:flex;
+transform:translateY(90%);
+  }
+.heading2{
+  display:flex;
+  transform: translate(18%,-400%);
+}
+.one {
+  grid-column: 1 / 2;
+  grid-row: 1;
+  display: flex;
+  justify-content: center;
+  transform: translate(-14%, 70%);
+}
+.two {
+  grid-column: 2 / 2;
+  grid-row: 1;
+  transform: translate(-20%, 15%);
+}
+
+.values{
+  display:grid;
+  grid-template-columns: repeat(2,1fr);
+}
+.rectangle2{
+  position: absolute;
+  left: -90px; 
+  z-index: -1;
+  height: 20%;
+  width:105%;
+  }
+  .rectangle2{
+    display:flex;
+  transform:translateY(114%);
+    }
+.three{ grid-column: 1/ 2;
+  grid-row: 1;
+  display: flex;
+  justify-content: center;
+  transform: translate(20%, 20%);
+}
+.four {
+  grid-column: 2 / 2;
+  grid-row: 1;
+  transform: translate(35%, 60%);
+  line-height: 30px;
+}
+.goal{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.container {
+  position: absolute;
+  left: 160px;
+  max-width: 600px; 
+  margin: 0 auto; 
+  display: flex;
+  flex-direction: row;
+
+  
+}
+
+.container .content {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0); 
+  background: rgba(0, 0, 0, 0.5); 
+  color: #f1f1f1; 
+  width: 100;
+  padding: 20px; 
+}
+.container2{
+  position: relative;
+  left: 360px;
+  max-width: 600px; 
+  margin: 0 auto; 
+  display: flex;
+  flex-direction: row;
+ 
+ 
+}
+.container2 .content2 {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0); 
+  background: rgba(0, 0, 0, 0.5); 
+  color: #f1f1f1; 
+  width: 80;
+  padding: 20px; 
+}
+.titleW{
+  display: flex;
+  justify-content: center;
+}
+
+.teacherImage{
+  width: 100%; height: 800px;
+  background-image: url("../images/Teacher.jpeg");
+  padding:30px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.teacherImageBox{
+text-align: left;
+position: absolute;
+justify-content: left;
+top: 50%;
+left: 50%;
+transform: translate(-100%,50%);
+background-color: rgba(192, 192, 192, 0.5));
+padding:30px;
+}
+.largeTitle1{
+  display: flex;
+  transform: translateY(600%);
+}
+.largeTitle2{
+  display: flex;
+  transform: translateY(800%);
+}
+
+.contact{
+  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:140px;
+  
+    display: flex;
+    justify-content: center;
+}
+.titleC{
+  display: flex;
+  justify-content: center;
+
+}
+.connect{
+  background-color:#E6F5FB;
+padding:20px;
+text-align: center;
+
+  
+}
+.follow{
+ background-color: #AFE4F8;
+  padding: 20px;
+  text-align: center;
+}
+
+footer{
+  background-color: #9BE2F2;
+  padding: 20px;
+  font-family: 'Montserrat', sans-serif;
+
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  line-height: 50px
+  
+}
+.logoImage{
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+ transform: translate(-10% 20%);
+ flex-direction: column;
+ font-size: 16px;
+  
+}
+.OlcLogo{
+  display: flex;
+  transform:translateY(100%)
+}
+.nobull{
+  list-style-type: none;
+}
+ul {
+  margin-left: 20px;
+  color: black;
+}
+li {
+  cursor: default;
+}
+span {
+  color:black;
+}
+
+.news{
+  display: flex;
+  transform: translateY(-10%);
+}
+
+.fa{
+  font-family: 'Montserrat', sans-serif;
+}
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: ;
+  }
+}
